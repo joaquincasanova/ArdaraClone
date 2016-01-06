@@ -20,8 +20,8 @@ vernier = 0.125
 vernier = 0.0625
 vernier = 0.03125
 vernier = 0.015625
-Gmin = 5.52173e-010
 vernier = 0.0078125
+Gmin = 5.53248e-010
 vernier = 0.00390625
 vernier = 0.00195313
 vernier = 0.000976563
@@ -32,83 +32,63 @@ Gmin stepping failed
 Starting source stepping with srcstepmethod=0
 Source Step = 3.0303%
 Source Step = 33.3333%
-Source Step = 36.7779%
-Source Step = 36.8963%
-Source Step = 37.0147%
-Source Step = 37.133%
-Source Step = 37.2514%
-vernier = 0.00585938
-Source Step = 37.3816%
-Source Step = 37.5592%
-Source Step = 37.7367%
-Source Step = 37.9143%
-Source Step = 38.0919%
-vernier = 0.00878906
-Source Step = 38.2783%
-Source Step = 38.5446%
-Source Step = 38.811%
-Source Step = 39.0773%
-Source Step = 39.3436%
-Source Step = 39.61%
-vernier = 0.0131836
-Source Step = 40.0095%
-Source Step = 40.409%
-Source Step = 40.8085%
-Source Step = 41.208%
-Source Step = 41.6075%
-vernier = 0.0197754
-Source Step = 42.1868%
-Source Step = 42.786%
-Source Step = 43.3853%
-Source Step = 43.9845%
-Source Step = 44.5838%
-vernier = 0.0296631
-Source Step = 45.4227%
-Source Step = 46.3216%
-Source Step = 47.2205%
-Source Step = 48.1194%
-Source Step = 49.0183%
-vernier = 0.0444946
-Source Step = 50.2317%
-Source Step = 51.5801%
-Source Step = 52.9284%
-Source Step = 54.2767%
-Source Step = 55.625%
-vernier = 0.0667419
-Source Step = 57.3779%
-Source Step = 59.4003%
-Source Step = 61.4228%
-Source Step = 63.4453%
-Source Step = 65.4678%
-vernier = 0.100113
-Source Step = 67.9959%
-Source Step = 71.0296%
-Source Step = 74.0633%
-Source Step = 77.0971%
-Source Step = 80.1308%
-vernier = 0.150169
-Source Step = 83.7713%
-Source Step = 88.3218%
-Source Step = 92.8724%
-Source Step = 97.423%
+Source Step = 35.7955%
+Source Step = 36.2689%
+Source Step = 36.7424%
+Source Step = 37.2159%
+Source Step = 37.6894%
+vernier = 0.0234375
+Source Step = 38.2339%
+Source Step = 38.9441%
+Source Step = 39.6544%
+Source Step = 40.3646%
+Source Step = 41.0748%
+vernier = 0.0351563
+Source Step = 41.8561%
+Source Step = 42.9214%
+Source Step = 43.9867%
+Source Step = 45.0521%
+Source Step = 46.1174%
+vernier = 0.0527344
+Source Step = 47.236%
+Source Step = 48.834%
+Source Step = 50.4321%
+Source Step = 52.0301%
+Source Step = 53.6281%
+Source Step = 55.2261%
+vernier = 0.0791016
+Source Step = 57.6231%
+Source Step = 60.0201%
+Source Step = 62.4171%
+Source Step = 64.8142%
+Source Step = 67.2112%
+vernier = 0.118652
+Source Step = 70.6868%
+Source Step = 74.2824%
+Source Step = 77.8779%
+Source Step = 81.4734%
+Source Step = 85.069%
+vernier = 0.177979
+Source Step = 90.1027%
+Source Step = 95.496%
 Source stepping succeeded in finding the operating point.
 
 
-Date: Tue Dec 22 09:34:09 2015
-Total elapsed time: 0.546 seconds.
+Date: Tue Jan 05 16:06:18 2016
+Total elapsed time: 12.733 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 12535
-traniter = 7946
-tranpoints = 2299
-accept = 1919
-rejected = 380
+totiter = 810663
+traniter = 806928
+tranpoints = 228427
+accept = 159476
+rejected = 68951
 matrix size = 66
-fillins = 82
+fillins = 90
 solver = Normal
-Matrix Compiler1: 7.03 KB object code size  1.5/0.7/[0.5]
-Matrix Compiler2: 6.81 KB object code size  0.6/0.8/[0.6]
+Matrix Compiler1: 7.65 KB object code size  1.6/0.7/[0.5]
+Matrix Compiler2: 6.96 KB object code size  0.6/0.7/[0.5]
 
 
