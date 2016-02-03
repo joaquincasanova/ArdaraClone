@@ -1,0 +1,22 @@
+Circuit: * C:\Users\jcasa\Documents\projects\ArdaraClone\spice\common source.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Tue Feb 02 08:34:26 2016
+Total elapsed time: 0.305 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 61657
+traniter = 61641
+tranpoints = 16216
+accept = 10981
+rejected = 5235
+matrix size = 12
+fillins = 4
+solver = Normal
+Matrix Compiler1: 730 bytes object code size  0.2/0.1/[0.0]
+Matrix Compiler2: off  [0.1]/0.1/0.1
+
+
