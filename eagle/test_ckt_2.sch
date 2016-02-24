@@ -10726,7 +10726,6 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <part name="P-8" library="supply1" deviceset="-15V" device=""/>
 <part name="P+6" library="supply1" deviceset="+15V" device=""/>
 <part name="OK1" library="optocoupler" deviceset="PC817" device=""/>
-<part name="D8" library="diode" deviceset="ZENER-DIODE" device="ZD-12.5"/>
 </parts>
 <sheets>
 <sheet>
@@ -10813,7 +10812,6 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <instance part="P-8" gate="1" x="190.5" y="142.24" rot="R180"/>
 <instance part="P+6" gate="1" x="114.3" y="154.94"/>
 <instance part="OK1" gate="A" x="106.68" y="109.22"/>
-<instance part="D8" gate="G$1" x="119.38" y="104.14" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -10937,15 +10935,11 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="91.44" x2="119.38" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="91.44" x2="114.3" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="91.44" x2="114.3" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="91.44" x2="114.3" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="P-4" gate="1" pin="V-"/>
 <junction x="134.62" y="91.44"/>
-<pinref part="D8" gate="G$1" pin="A"/>
-<wire x1="119.38" y1="101.6" x2="119.38" y2="91.44" width="0.1524" layer="91"/>
-<junction x="119.38" y="91.44"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$3" pin="S"/>
@@ -11006,8 +11000,6 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <wire x1="119.38" y1="106.68" x2="114.3" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="OK1" gate="A" pin="EMIT"/>
 <junction x="114.3" y="106.68"/>
-<pinref part="D8" gate="G$1" pin="C"/>
-<junction x="119.38" y="106.68"/>
 </segment>
 </net>
 <net name="N$14" class="0">

@@ -1,22 +1,23 @@
 Circuit: * C:\Users\jcasa\Documents\projects\ArdaraClone\spice\common source.asc
 
+WARNING: Less than two connections to node V+.  This node is used by V4.
 Direct Newton iteration for .op point succeeded.
 
-Date: Tue Feb 02 08:34:26 2016
-Total elapsed time: 0.305 seconds.
+Date: Thu Feb 18 10:25:04 2016
+Total elapsed time: 0.166 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 61657
-traniter = 61641
-tranpoints = 16216
-accept = 10981
-rejected = 5235
-matrix size = 12
-fillins = 4
+totiter = 12469
+traniter = 12437
+tranpoints = 3163
+accept = 2476
+rejected = 687
+matrix size = 33
+fillins = 14
 solver = Normal
-Matrix Compiler1: 730 bytes object code size  0.2/0.1/[0.0]
-Matrix Compiler2: off  [0.1]/0.1/0.1
+Matrix Compiler1: 2.59 KB object code size  0.4/0.3/[0.1]
+Matrix Compiler2: off  [0.2]/0.3/0.4
 
 
