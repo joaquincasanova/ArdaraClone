@@ -2986,7 +2986,7 @@ design rules under a new name.</description>
 <element name="R23" library="resistor" package="0207/10" value="1M" x="124.714" y="54.61"/>
 <element name="R24" library="resistor" package="0207/10" value="1M" x="124.714" y="49.53" rot="R180"/>
 <element name="R25" library="resistor" package="0207/10" value="1M" x="120.904" y="43.942"/>
-<element name="R26" library="rcl" package="0207/10" value="5k" x="120.904" y="38.608" rot="R180"/>
+<element name="R26" library="rcl" package="0207/10" value="50k" x="120.904" y="38.608" rot="R180"/>
 <element name="IC4" library="linear-technology" package="DIL08" value="LT1352PA" x="46.736" y="28.194">
 <attribute name="OC_NEWARK" value="unknown" x="46.736" y="28.194" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="46.736" y="28.194" size="1.778" layer="27" display="off"/>
@@ -2994,7 +2994,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="46.736" y="28.194" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R27" library="rcl" package="0207/10" value="10k" x="50.038" y="9.906" rot="R90"/>
-<element name="R28" library="rcl" package="0207/10" value="40k" x="73.66" y="19.304"/>
+<element name="R28" library="rcl" package="0207/10" value="20k" x="73.66" y="19.304"/>
 <element name="R29" library="rcl" package="0207/10" value="17k" x="45.466" y="20.574" rot="R180"/>
 <element name="R30" library="rcl" package="0207/10" value="13k" x="34.798" y="25.654" rot="R90"/>
 <element name="R31" library="rcl" package="0207/10" value="10k" x="59.436" y="18.288" rot="R270"/>
@@ -3008,8 +3008,8 @@ design rules under a new name.</description>
 </element>
 <element name="OUT" library="con-amp-te" package="640584-1" value="640584-1" x="136.906" y="77.216" rot="R270"/>
 <element name="DISPLAY" library="con-molex" package="5669-8" value="5669-8" x="108.204" y="142.494" rot="R180"/>
-<element name="UNK" library="con-molex" package="5569-2" value="5569-2" x="61.468" y="141.478" rot="R180"/>
-<element name="GROUND" library="con-molex" package="5569-2" value="5569-2" x="46.228" y="141.224" rot="R180"/>
+<element name="J25" library="con-molex" package="5569-2" value="5569-2" x="61.468" y="141.478" rot="R180"/>
+<element name="J26" library="con-molex" package="5569-2" value="5569-2" x="46.228" y="141.224" rot="R180"/>
 <element name="DISPLAYPOWER" library="con-molex" package="5569-2" value="5569-2" x="32.004" y="140.716" rot="R180"/>
 <element name="LED" library="con-molex" package="5569-2" value="5569-2" x="80.264" y="141.478" rot="R180"/>
 <element name="R1" library="rcl" package="0207/10" value="220" x="91.694" y="136.398" rot="R90"/>
@@ -3042,6 +3042,11 @@ design rules under a new name.</description>
 <element name="R12" library="rcl" package="0207/10" value="rb" x="135.89" y="117.348" rot="R180"/>
 <element name="C9" library="rcl" package="C075-032X103" value="cc" x="137.16" y="112.268"/>
 <element name="R15" library="rcl" package="0207/10" value="rl" x="134.62" y="106.426"/>
+<element name="DISPLAY1" library="con-molex" package="5569-2" value="5569-2" x="-8.89" y="7.874"/>
+<element name="R33" library="rcl" package="0207/10" value="9.09k" x="-5.334" y="-9.652"/>
+<element name="R34" library="rcl" package="0207/10" value="1k" x="-5.334" y="-14.224"/>
+<element name="J23" library="con-molex" package="5569-2" value="5569-2" x="-17.272" y="-1.27"/>
+<element name="R35" library="rcl" package="0207/10" value="294" x="-13.716" y="-18.796"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -3076,8 +3081,8 @@ design rules under a new name.</description>
 <contactref element="POWER" pad="2"/>
 <contactref element="POWER" pad="3"/>
 <contactref element="DISPLAYPOWER" pad="P$2"/>
-<contactref element="UNK" pad="P$2"/>
-<contactref element="GROUND" pad="P$2"/>
+<contactref element="J25" pad="P$2"/>
+<contactref element="J26" pad="P$2"/>
 <contactref element="LED" pad="P$2"/>
 <contactref element="D2" pad="A"/>
 <contactref element="D3" pad="C"/>
@@ -3139,6 +3144,10 @@ design rules under a new name.</description>
 <via x="54.102" y="62.484" extent="1-16" drill="0.6" shape="square"/>
 <wire x1="54.102" y1="62.484" x2="53.594" y2="62.484" width="1.4224" layer="16"/>
 <wire x1="53.594" y1="62.484" x2="49.784" y2="58.674" width="1.4224" layer="16"/>
+<contactref element="R34" pad="2"/>
+<contactref element="DISPLAY1" pad="P$2"/>
+<wire x1="-8.89" y1="12.192" x2="-0.254" y2="-14.224" width="0" layer="19" extent="1-1"/>
+<wire x1="31.75" y1="58.42" x2="-8.89" y2="12.192" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V+">
 <contactref element="C3" pad="1"/>
@@ -3368,7 +3377,6 @@ design rules under a new name.</description>
 <contactref element="R26" pad="2"/>
 <contactref element="R28" pad="2"/>
 <wire x1="115.824" y1="19.304" x2="78.74" y2="19.304" width="1.4224" layer="16"/>
-<contactref element="DISPLAY" pad="P$1"/>
 <wire x1="115.824" y1="43.942" x2="115.824" y2="67.056" width="1.4224" layer="16"/>
 <wire x1="115.824" y1="67.056" x2="116.586" y2="68.072" width="1.4224" layer="16"/>
 <wire x1="116.586" y1="68.072" x2="143.51" y2="68.072" width="1.4224" layer="16"/>
@@ -3376,10 +3384,10 @@ design rules under a new name.</description>
 <wire x1="149.606" y1="74.168" x2="149.606" y2="135.128" width="1.4224" layer="16"/>
 <wire x1="149.606" y1="135.128" x2="138.938" y2="145.796" width="1.4224" layer="16"/>
 <wire x1="138.938" y1="145.796" x2="108.204" y2="145.796" width="1.4224" layer="16"/>
-<wire x1="108.204" y1="145.796" x2="108.204" y2="142.494" width="1.4224" layer="16"/>
-<wire x1="108.204" y1="144.272" x2="108.204" y2="142.494" width="1.4224" layer="16"/>
 <wire x1="115.824" y1="43.942" x2="115.824" y2="38.608" width="1.4224" layer="16"/>
 <wire x1="115.824" y1="43.942" x2="115.824" y2="19.304" width="1.4224" layer="16"/>
+<contactref element="DISPLAY" pad="P$1"/>
+<wire x1="108.204" y1="145.796" x2="108.204" y2="142.494" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$35">
 <contactref element="IC4" pad="1"/>
@@ -3458,10 +3466,10 @@ design rules under a new name.</description>
 <wire x1="10.668" y1="32.512" x2="15.494" y2="27.686" width="1.4224" layer="16"/>
 </signal>
 <signal name="N$6">
-<contactref element="UNK" pad="P$1"/>
-<contactref element="GROUND" pad="P$1"/>
-<wire x1="46.228" y1="141.224" x2="61.214" y2="141.224" width="1.4224" layer="16"/>
+<contactref element="J25" pad="P$1"/>
 <wire x1="61.214" y1="141.224" x2="61.468" y2="141.478" width="1.4224" layer="16"/>
+<contactref element="R35" pad="2"/>
+<wire x1="-8.636" y1="-18.796" x2="61.214" y2="141.224" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$7">
 <contactref element="LED" pad="P$1"/>
@@ -3644,6 +3652,24 @@ design rules under a new name.</description>
 <wire x1="127.762" y1="110.998" x2="124.968" y2="108.204" width="1.4224" layer="16"/>
 <wire x1="124.968" y1="108.204" x2="124.968" y2="100.33" width="1.4224" layer="16"/>
 <wire x1="124.968" y1="100.33" x2="123.698" y2="99.06" width="1.4224" layer="16"/>
+</signal>
+<signal name="N$20">
+<contactref element="DISPLAY1" pad="P$1"/>
+<contactref element="R33" pad="2"/>
+<contactref element="R34" pad="1"/>
+<contactref element="R34" pad="1"/>
+<wire x1="-0.254" y1="-9.652" x2="-10.414" y2="-14.224" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.89" y1="7.874" x2="-0.254" y2="-9.652" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$21">
+<contactref element="R33" pad="1"/>
+<contactref element="J23" pad="P$1"/>
+<wire x1="-17.272" y1="-1.27" x2="-10.414" y2="-9.652" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$22">
+<contactref element="R35" pad="1"/>
+<contactref element="J26" pad="P$1"/>
+<wire x1="-18.796" y1="-18.796" x2="46.228" y2="141.224" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>

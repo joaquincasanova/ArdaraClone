@@ -1,0 +1,16 @@
+* C:\Users\jcasa\Documents\projects\ArdaraClone\spice\summer.asc
+V3 VIN 0 SINE(0 5 100 0 0 0 0) AC 10 0
+V4 V+ 0 15
+V5 V- 0 -15
+R4 N002 N003 10k
+R10 VIN N001 20k
+R12 vout N001 10k
+R1 N003 V- 16k
+R2 V+ N003 12.75k
+XU1 N002 N001 V+ V- vout LT1352
+;dc V3 -10 10 .1
+.tran 100m
+;.op
+.lib LTC.lib
+.backanno
+.end
