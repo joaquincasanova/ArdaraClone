@@ -12135,17 +12135,11 @@ Source: Digi-Key, subd.pdf</description>
 <part name="POWER" library="con-molex" deviceset="KK-156-6" device=""/>
 <part name="OUT" library="con-amp-te" deviceset="640584-1" device=""/>
 <part name="DISPLAY" library="con-molex" deviceset="5669-8" device=""/>
-<part name="J25" library="con-molex" deviceset="5569-2" device=""/>
 <part name="J26" library="con-molex" deviceset="5569-2" device=""/>
-<part name="DISPLAYPOWER" library="con-molex" deviceset="5569-2" device=""/>
-<part name="LED" library="con-molex" deviceset="5569-2" device=""/>
+<part name="DISPLAYPOWERJ25" library="con-molex" deviceset="5569-2" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="P+4" library="supply1" deviceset="+5V" device=""/>
-<part name="R1" library="rcl" deviceset="R-US_" device="0207/10" value="220"/>
-<part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" deviceset="V+" device=""/>
 <part name="P-3" library="supply1" deviceset="V-" device=""/>
 <part name="D2" library="diode" deviceset="P6KEXXA" device=""/>
@@ -12194,6 +12188,7 @@ Source: Digi-Key, subd.pdf</description>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="J23" library="con-molex" deviceset="5569-2" device=""/>
 <part name="R35" library="rcl" deviceset="R-US_" device="0207/10" value="294"/>
+<part name="P+14" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12327,21 +12322,13 @@ Source: Digi-Key, subd.pdf</description>
 <instance part="DISPLAY" gate="G$6" x="154.94" y="830.58" rot="MR0"/>
 <instance part="DISPLAY" gate="G$7" x="154.94" y="828.04" rot="MR0"/>
 <instance part="DISPLAY" gate="G$8" x="154.94" y="825.5" rot="MR0"/>
-<instance part="J25" gate="G$1" x="215.9" y="843.28"/>
-<instance part="J25" gate="G$2" x="236.22" y="843.28"/>
 <instance part="J26" gate="G$1" x="215.9" y="833.12"/>
 <instance part="J26" gate="G$2" x="236.22" y="838.2"/>
-<instance part="DISPLAYPOWER" gate="G$1" x="213.36" y="817.88"/>
-<instance part="DISPLAYPOWER" gate="G$2" x="213.36" y="815.34"/>
-<instance part="LED" gate="G$1" x="213.36" y="810.26"/>
-<instance part="LED" gate="G$2" x="213.36" y="807.72"/>
-<instance part="P+3" gate="1" x="208.28" y="817.88" rot="R90"/>
-<instance part="GND5" gate="1" x="208.28" y="815.34" rot="R270"/>
-<instance part="GND7" gate="1" x="231.14" y="843.28" rot="R270"/>
+<instance part="DISPLAYPOWERJ25" gate="G$1" x="185.42" y="822.96"/>
+<instance part="DISPLAYPOWERJ25" gate="G$2" x="185.42" y="820.42"/>
+<instance part="P+3" gate="1" x="180.34" y="822.96" rot="R90"/>
+<instance part="GND5" gate="1" x="180.34" y="820.42" rot="R270"/>
 <instance part="GND8" gate="1" x="231.14" y="838.2" rot="R270"/>
-<instance part="P+4" gate="1" x="193.04" y="810.26" rot="R90"/>
-<instance part="R1" gate="G$1" x="203.2" y="810.26"/>
-<instance part="GND14" gate="1" x="208.28" y="807.72" rot="R270"/>
 <instance part="P+5" gate="1" x="264.16" y="840.74"/>
 <instance part="P-3" gate="1" x="271.78" y="840.74" rot="R180"/>
 <instance part="D2" gate="1" x="264.16" y="830.58" rot="R90"/>
@@ -12392,6 +12379,7 @@ Source: Digi-Key, subd.pdf</description>
 <instance part="J23" gate="G$1" x="175.26" y="838.2" rot="R180"/>
 <instance part="J23" gate="G$2" x="175.26" y="833.12" rot="R180"/>
 <instance part="R35" gate="G$1" x="210.82" y="838.2" rot="R90"/>
+<instance part="P+14" gate="1" x="213.36" y="843.28" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -12484,20 +12472,12 @@ Source: Digi-Key, subd.pdf</description>
 <pinref part="GND25" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="DISPLAYPOWER" gate="G$2" pin="S"/>
+<pinref part="DISPLAYPOWERJ25" gate="G$2" pin="S"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="J25" gate="G$2" pin="S"/>
-<pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="J26" gate="G$2" pin="S"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="LED" gate="G$2" pin="S"/>
-<pinref part="GND14" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="D2" gate="1" pin="A"/>
@@ -12608,17 +12588,16 @@ Source: Digi-Key, subd.pdf</description>
 <wire x1="58.42" y1="695.96" x2="63.5" y2="695.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="DISPLAYPOWER" gate="G$1" pin="S"/>
+<pinref part="DISPLAYPOWERJ25" gate="G$1" pin="S"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
-</segment>
-<segment>
-<pinref part="P+4" gate="1" pin="+5V"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="810.26" x2="198.12" y2="810.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+19" gate="1" pin="+5V"/>
 <pinref part="C6" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="R35" gate="G$1" pin="2"/>
+<pinref part="P+14" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -12848,20 +12827,6 @@ Source: Digi-Key, subd.pdf</description>
 <segment>
 <pinref part="R14" gate="G$1" pin="2"/>
 <pinref part="POT1" gate="G$1" pin="S"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="J25" gate="G$1" pin="S"/>
-<pinref part="R35" gate="G$1" pin="2"/>
-<wire x1="213.36" y1="843.28" x2="210.82" y2="843.28" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="LED" gate="G$1" pin="S"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="208.28" y1="810.26" x2="210.82" y2="810.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
