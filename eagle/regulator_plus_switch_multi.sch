@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,12 +53,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -12050,7 +12050,14 @@ Source: Digi-Key, subd.pdf</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.6096" drill="0">
+<clearance class="0" value="0.254"/>
+</class>
+<class number="1" name="ground" width="1.016" drill="0">
+<clearance class="1" value="0.254"/>
+</class>
+<class number="2" name="power" width="1.016" drill="0">
+<clearance class="2" value="0.254"/>
 </class>
 </classes>
 <parts>
@@ -12073,8 +12080,8 @@ Source: Digi-Key, subd.pdf</description>
 <part name="P+10" library="supply1" deviceset="+5V" device=""/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="R13" library="rcl" deviceset="R-US_" device="0207/15" value="20k"/>
-<part name="R14" library="rcl" deviceset="R-US_" device="0207/15" value="20k"/>
+<part name="R13" library="rcl" deviceset="R-US_" device="0207/10" value="20k"/>
+<part name="R14" library="rcl" deviceset="R-US_" device="0207/10" value="20k"/>
 <part name="POT1" library="con-molex" deviceset="5569-4" device=""/>
 <part name="HVIN" library="con-molex" deviceset="5569-4" device=""/>
 <part name="IC2" library="linear-technology" deviceset="LT1352" device="PA"/>
@@ -12116,7 +12123,7 @@ Source: Digi-Key, subd.pdf</description>
 <part name="R26" library="rcl" deviceset="R-US_" device="0207/10" value="100k"/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="R27" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
-<part name="R28" library="rcl" deviceset="R-US_" device="0207/15" value="20k"/>
+<part name="R28" library="rcl" deviceset="R-US_" device="0207/10" value="20k"/>
 <part name="R29" library="rcl" deviceset="R-US_" device="0207/10" value="16k"/>
 <part name="R30" library="rcl" deviceset="R-US_" device="0207/10" value="12.75k"/>
 <part name="P+17" library="supply1" deviceset="+15V" device=""/>
@@ -12124,7 +12131,7 @@ Source: Digi-Key, subd.pdf</description>
 <part name="R31" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
 <part name="MAN/EXT" library="con-molex" deviceset="5569-2" device=""/>
 <part name="P+18" library="supply1" deviceset="+5V" device=""/>
-<part name="R32" library="rcl" deviceset="R-US_" device="0207/15" value="100k"/>
+<part name="R32" library="rcl" deviceset="R-US_" device="0207/10" value="100k"/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="POWER" library="con-molex" deviceset="KK-156-6" device=""/>
 <part name="OUT" library="con-amp-te" deviceset="640584-1" device=""/>
@@ -12183,8 +12190,8 @@ Source: Digi-Key, subd.pdf</description>
 <part name="J23" library="con-molex" deviceset="5569-2" device=""/>
 <part name="R35" library="rcl" deviceset="R-US_" device="0207/10" value="294"/>
 <part name="P+14" library="supply1" deviceset="+5V" device=""/>
-<part name="R1" library="rcl" deviceset="R-US_" device="0207/15" value="20k"/>
-<part name="R36" library="rcl" deviceset="R-US_" device="0207/15" value="20k"/>
+<part name="R1" library="rcl" deviceset="R-US_" device="0207/10" value="20k"/>
+<part name="R36" library="rcl" deviceset="R-US_" device="0207/10" value="20k"/>
 <part name="POT2" library="con-molex" deviceset="5569-4" device=""/>
 <part name="IC1" library="linear-technology" deviceset="LT1352" device="PA"/>
 <part name="R37" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
@@ -12211,7 +12218,7 @@ Source: Digi-Key, subd.pdf</description>
 <part name="R47" library="rcl" deviceset="R-US_" device="0207/10" value="100k"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="R48" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
-<part name="R49" library="rcl" deviceset="R-US_" device="0207/15" value="20k"/>
+<part name="R49" library="rcl" deviceset="R-US_" device="0207/10" value="20k"/>
 <part name="R50" library="rcl" deviceset="R-US_" device="0207/10" value="16k"/>
 <part name="R51" library="rcl" deviceset="R-US_" device="0207/10" value="12.75k"/>
 <part name="P+24" library="supply1" deviceset="+15V" device=""/>
@@ -12235,8 +12242,8 @@ Source: Digi-Key, subd.pdf</description>
 <part name="D5" library="diode" deviceset="ZENER-DIODE" device="DO41Z10" value="1n4742"/>
 <part name="D6" library="diode" deviceset="ZENER-DIODE" device="DO41Z10" value="1n4742"/>
 <part name="KK2" library="heatsink" deviceset="SK125/50" device="C247" value="SK125/50C247"/>
-<part name="R60" library="rcl" deviceset="R-US_" device="0207/15" value="20k"/>
-<part name="R61" library="rcl" deviceset="R-US_" device="0207/15" value="20k"/>
+<part name="R60" library="rcl" deviceset="R-US_" device="0207/10" value="20k"/>
+<part name="R61" library="rcl" deviceset="R-US_" device="0207/10" value="20k"/>
 <part name="POT3" library="con-molex" deviceset="5569-4" device=""/>
 <part name="IC5" library="linear-technology" deviceset="LT1352" device="PA"/>
 <part name="R62" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
@@ -12263,7 +12270,7 @@ Source: Digi-Key, subd.pdf</description>
 <part name="R72" library="rcl" deviceset="R-US_" device="0207/10" value="100k"/>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
 <part name="R73" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
-<part name="R74" library="rcl" deviceset="R-US_" device="0207/15" value="20k"/>
+<part name="R74" library="rcl" deviceset="R-US_" device="0207/10" value="20k"/>
 <part name="R75" library="rcl" deviceset="R-US_" device="0207/10" value="16k"/>
 <part name="R76" library="rcl" deviceset="R-US_" device="0207/10" value="12.75k"/>
 <part name="P+31" library="supply1" deviceset="+15V" device=""/>
@@ -12287,8 +12294,8 @@ Source: Digi-Key, subd.pdf</description>
 <part name="D13" library="diode" deviceset="ZENER-DIODE" device="DO41Z10" value="1n4742"/>
 <part name="D14" library="diode" deviceset="ZENER-DIODE" device="DO41Z10" value="1n4742"/>
 <part name="KK3" library="heatsink" deviceset="SK125/50" device="C247" value="SK125/50C247"/>
-<part name="R85" library="rcl" deviceset="R-US_" device="0207/15" value="20k"/>
-<part name="R86" library="rcl" deviceset="R-US_" device="0207/15" value="20k"/>
+<part name="R85" library="rcl" deviceset="R-US_" device="0207/10" value="20k"/>
+<part name="R86" library="rcl" deviceset="R-US_" device="0207/10" value="20k"/>
 <part name="POT4" library="con-molex" deviceset="5569-4" device=""/>
 <part name="IC7" library="linear-technology" deviceset="LT1352" device="PA"/>
 <part name="R87" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
@@ -12315,7 +12322,7 @@ Source: Digi-Key, subd.pdf</description>
 <part name="R97" library="rcl" deviceset="R-US_" device="0207/10" value="100k"/>
 <part name="GND43" library="supply1" deviceset="GND" device=""/>
 <part name="R98" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
-<part name="R99" library="rcl" deviceset="R-US_" device="0207/15" value="20k"/>
+<part name="R99" library="rcl" deviceset="R-US_" device="0207/10" value="20k"/>
 <part name="R100" library="rcl" deviceset="R-US_" device="0207/10" value="16k"/>
 <part name="R101" library="rcl" deviceset="R-US_" device="0207/10" value="12.75k"/>
 <part name="P+38" library="supply1" deviceset="+15V" device=""/>
@@ -12339,8 +12346,8 @@ Source: Digi-Key, subd.pdf</description>
 <part name="D17" library="diode" deviceset="ZENER-DIODE" device="DO41Z10" value="1n4742"/>
 <part name="D18" library="diode" deviceset="ZENER-DIODE" device="DO41Z10" value="1n4742"/>
 <part name="KK4" library="heatsink" deviceset="SK125/50" device="C247" value="SK125/50C247"/>
-<part name="R110" library="rcl" deviceset="R-US_" device="0207/15" value="20k"/>
-<part name="R111" library="rcl" deviceset="R-US_" device="0207/15" value="20k"/>
+<part name="R110" library="rcl" deviceset="R-US_" device="0207/10" value="20k"/>
+<part name="R111" library="rcl" deviceset="R-US_" device="0207/10" value="20k"/>
 <part name="POT5" library="con-molex" deviceset="5569-4" device=""/>
 <part name="IC9" library="linear-technology" deviceset="LT1352" device="PA"/>
 <part name="R112" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
@@ -12367,7 +12374,7 @@ Source: Digi-Key, subd.pdf</description>
 <part name="R122" library="rcl" deviceset="R-US_" device="0207/10" value="100k"/>
 <part name="GND48" library="supply1" deviceset="GND" device=""/>
 <part name="R123" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
-<part name="R124" library="rcl" deviceset="R-US_" device="0207/15" value="20k"/>
+<part name="R124" library="rcl" deviceset="R-US_" device="0207/10" value="20k"/>
 <part name="R125" library="rcl" deviceset="R-US_" device="0207/10" value="16k"/>
 <part name="R126" library="rcl" deviceset="R-US_" device="0207/10" value="12.75k"/>
 <part name="P+45" library="supply1" deviceset="+15V" device=""/>
@@ -12391,8 +12398,8 @@ Source: Digi-Key, subd.pdf</description>
 <part name="D21" library="diode" deviceset="ZENER-DIODE" device="DO41Z10" value="1n4742"/>
 <part name="D22" library="diode" deviceset="ZENER-DIODE" device="DO41Z10" value="1n4742"/>
 <part name="KK5" library="heatsink" deviceset="SK125/50" device="C247" value="SK125/50C247"/>
-<part name="R135" library="rcl" deviceset="R-US_" device="0207/15" value="20k"/>
-<part name="R136" library="rcl" deviceset="R-US_" device="0207/15" value="20k"/>
+<part name="R135" library="rcl" deviceset="R-US_" device="0207/10" value="20k"/>
+<part name="R136" library="rcl" deviceset="R-US_" device="0207/10" value="20k"/>
 <part name="POT6" library="con-molex" deviceset="5569-4" device=""/>
 <part name="IC11" library="linear-technology" deviceset="LT1352" device="PA"/>
 <part name="R137" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
@@ -12419,7 +12426,7 @@ Source: Digi-Key, subd.pdf</description>
 <part name="R147" library="rcl" deviceset="R-US_" device="0207/10" value="100k"/>
 <part name="GND53" library="supply1" deviceset="GND" device=""/>
 <part name="R148" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
-<part name="R149" library="rcl" deviceset="R-US_" device="0207/15" value="20k"/>
+<part name="R149" library="rcl" deviceset="R-US_" device="0207/10" value="20k"/>
 <part name="R150" library="rcl" deviceset="R-US_" device="0207/10" value="16k"/>
 <part name="R151" library="rcl" deviceset="R-US_" device="0207/10" value="12.75k"/>
 <part name="P+52" library="supply1" deviceset="+15V" device=""/>
@@ -12443,8 +12450,8 @@ Source: Digi-Key, subd.pdf</description>
 <part name="D25" library="diode" deviceset="ZENER-DIODE" device="DO41Z10" value="1n4742"/>
 <part name="D26" library="diode" deviceset="ZENER-DIODE" device="DO41Z10" value="1n4742"/>
 <part name="KK6" library="heatsink" deviceset="SK125/50" device="C247" value="SK125/50C247"/>
-<part name="R160" library="rcl" deviceset="R-US_" device="0207/15" value="20k"/>
-<part name="R161" library="rcl" deviceset="R-US_" device="0207/15" value="20k"/>
+<part name="R160" library="rcl" deviceset="R-US_" device="0207/10" value="20k"/>
+<part name="R161" library="rcl" deviceset="R-US_" device="0207/10" value="20k"/>
 <part name="POT7" library="con-molex" deviceset="5569-4" device=""/>
 <part name="IC13" library="linear-technology" deviceset="LT1352" device="PA"/>
 <part name="R162" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
@@ -12471,7 +12478,7 @@ Source: Digi-Key, subd.pdf</description>
 <part name="R172" library="rcl" deviceset="R-US_" device="0207/10" value="100k"/>
 <part name="GND58" library="supply1" deviceset="GND" device=""/>
 <part name="R173" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
-<part name="R174" library="rcl" deviceset="R-US_" device="0207/15" value="20k"/>
+<part name="R174" library="rcl" deviceset="R-US_" device="0207/10" value="20k"/>
 <part name="R175" library="rcl" deviceset="R-US_" device="0207/10" value="16k"/>
 <part name="R176" library="rcl" deviceset="R-US_" device="0207/10" value="12.75k"/>
 <part name="P+59" library="supply1" deviceset="+15V" device=""/>
@@ -12495,8 +12502,8 @@ Source: Digi-Key, subd.pdf</description>
 <part name="D29" library="diode" deviceset="ZENER-DIODE" device="DO41Z10" value="1n4742"/>
 <part name="D30" library="diode" deviceset="ZENER-DIODE" device="DO41Z10" value="1n4742"/>
 <part name="KK7" library="heatsink" deviceset="SK125/50" device="C247" value="SK125/50C247"/>
-<part name="R185" library="rcl" deviceset="R-US_" device="0207/15" value="20k"/>
-<part name="R186" library="rcl" deviceset="R-US_" device="0207/15" value="20k"/>
+<part name="R185" library="rcl" deviceset="R-US_" device="0207/10" value="20k"/>
+<part name="R186" library="rcl" deviceset="R-US_" device="0207/10" value="20k"/>
 <part name="POT8" library="con-molex" deviceset="5569-4" device=""/>
 <part name="IC15" library="linear-technology" deviceset="LT1352" device="PA"/>
 <part name="R187" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
@@ -12523,7 +12530,7 @@ Source: Digi-Key, subd.pdf</description>
 <part name="R197" library="rcl" deviceset="R-US_" device="0207/10" value="100k"/>
 <part name="GND63" library="supply1" deviceset="GND" device=""/>
 <part name="R198" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
-<part name="R199" library="rcl" deviceset="R-US_" device="0207/15" value="20k"/>
+<part name="R199" library="rcl" deviceset="R-US_" device="0207/10" value="20k"/>
 <part name="R200" library="rcl" deviceset="R-US_" device="0207/10" value="16k"/>
 <part name="R201" library="rcl" deviceset="R-US_" device="0207/10" value="12.75k"/>
 <part name="P+66" library="supply1" deviceset="+15V" device=""/>
@@ -13141,7 +13148,7 @@ Source: Digi-Key, subd.pdf</description>
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="GND2" gate="1" pin="GND"/>
@@ -13409,7 +13416,7 @@ Source: Digi-Key, subd.pdf</description>
 <pinref part="GND66" gate="1" pin="GND"/>
 </segment>
 </net>
-<net name="V+" class="0">
+<net name="V+" class="2">
 <segment>
 <pinref part="P+2" gate="1" pin="V+"/>
 <pinref part="C3" gate="G$1" pin="1"/>
@@ -13434,7 +13441,7 @@ Source: Digi-Key, subd.pdf</description>
 <junction x="111.76" y="736.6"/>
 </segment>
 </net>
-<net name="V-" class="0">
+<net name="V-" class="2">
 <segment>
 <pinref part="P-2" gate="1" pin="V-"/>
 <pinref part="C4" gate="G$1" pin="1"/>
@@ -13456,7 +13463,7 @@ Source: Digi-Key, subd.pdf</description>
 <wire x1="157.48" y1="701.04" x2="157.48" y2="706.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+5V" class="0">
+<net name="+5V" class="2">
 <segment>
 <pinref part="P+10" gate="1" pin="+5V"/>
 <wire x1="375.92" y1="701.04" x2="381" y2="701.04" width="0.1524" layer="91"/>
@@ -13570,7 +13577,7 @@ Source: Digi-Key, subd.pdf</description>
 <pinref part="R18" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="-15V" class="0">
+<net name="-15V" class="2">
 <segment>
 <pinref part="IC2" gate="A" pin="V-"/>
 <pinref part="P-12" gate="1" pin="-15V"/>
@@ -13757,7 +13764,7 @@ Source: Digi-Key, subd.pdf</description>
 <wire x1="396.24" y1="193.04" x2="396.24" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+15V" class="0">
+<net name="+15V" class="2">
 <segment>
 <wire x1="375.92" y1="706.12" x2="381" y2="706.12" width="0.1524" layer="91"/>
 <pinref part="P+12" gate="1" pin="+15V"/>
@@ -14215,7 +14222,7 @@ Source: Digi-Key, subd.pdf</description>
 <pinref part="C5" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="N$11" class="2">
 <segment>
 <pinref part="U$4" gate="G$1" pin="OUT"/>
 <wire x1="160.02" y1="647.7" x2="175.26" y2="647.7" width="0.1524" layer="91"/>
@@ -14438,7 +14445,7 @@ Source: Digi-Key, subd.pdf</description>
 <wire x1="114.3" y1="711.2" x2="119.38" y2="711.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="V+_SAFE" class="0">
+<net name="V+_SAFE" class="2">
 <segment>
 <pinref part="Q1" gate="G$1" pin="C"/>
 <wire x1="104.14" y1="706.12" x2="104.14" y2="698.5" width="0.1524" layer="91"/>
@@ -14514,7 +14521,7 @@ Source: Digi-Key, subd.pdf</description>
 <wire x1="157.48" y1="716.28" x2="157.48" y2="718.82" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="V-_SAFE" class="0">
+<net name="V-_SAFE" class="2">
 <segment>
 <pinref part="T2" gate="G1" pin="C"/>
 <wire x1="139.7" y1="723.9" x2="139.7" y2="728.98" width="0.1524" layer="91"/>
@@ -14728,7 +14735,7 @@ Source: Digi-Key, subd.pdf</description>
 <pinref part="C10" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$53" class="0">
+<net name="N$53" class="2">
 <segment>
 <pinref part="U$1" gate="G$1" pin="OUT"/>
 <wire x1="160.02" y1="513.08" x2="175.26" y2="513.08" width="0.1524" layer="91"/>
@@ -14932,7 +14939,7 @@ Source: Digi-Key, subd.pdf</description>
 <pinref part="C12" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$78" class="0">
+<net name="N$78" class="2">
 <segment>
 <pinref part="U$2" gate="G$1" pin="OUT"/>
 <wire x1="162.56" y1="370.84" x2="177.8" y2="370.84" width="0.1524" layer="91"/>
@@ -15136,7 +15143,7 @@ Source: Digi-Key, subd.pdf</description>
 <pinref part="C14" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$103" class="0">
+<net name="N$103" class="2">
 <segment>
 <pinref part="U$3" gate="G$1" pin="OUT"/>
 <wire x1="162.56" y1="223.52" x2="177.8" y2="223.52" width="0.1524" layer="91"/>
@@ -15340,7 +15347,7 @@ Source: Digi-Key, subd.pdf</description>
 <pinref part="C16" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$128" class="0">
+<net name="N$128" class="2">
 <segment>
 <pinref part="U$5" gate="G$1" pin="OUT"/>
 <wire x1="353.06" y1="645.16" x2="368.3" y2="645.16" width="0.1524" layer="91"/>
@@ -15544,7 +15551,7 @@ Source: Digi-Key, subd.pdf</description>
 <pinref part="C18" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$153" class="0">
+<net name="N$153" class="2">
 <segment>
 <pinref part="U$6" gate="G$1" pin="OUT"/>
 <wire x1="355.6" y1="510.54" x2="370.84" y2="510.54" width="0.1524" layer="91"/>
@@ -15748,7 +15755,7 @@ Source: Digi-Key, subd.pdf</description>
 <pinref part="C20" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$178" class="0">
+<net name="N$178" class="2">
 <segment>
 <pinref part="U$7" gate="G$1" pin="OUT"/>
 <wire x1="355.6" y1="368.3" x2="370.84" y2="368.3" width="0.1524" layer="91"/>
@@ -15954,7 +15961,7 @@ Source: Digi-Key, subd.pdf</description>
 <pinref part="C22" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$203" class="0">
+<net name="N$203" class="2">
 <segment>
 <pinref part="U$8" gate="G$1" pin="OUT"/>
 <wire x1="355.6" y1="220.98" x2="370.84" y2="220.98" width="0.1524" layer="91"/>
