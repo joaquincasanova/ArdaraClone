@@ -3,7 +3,7 @@ EAGLE AutoRouter Statistics:
 Job           : C:/Users/jcasa/Documents/projects/ArdaraClone/eagle/regulator_plus_switch_multi.brd
 
 Start at      : 07:56:05 (4/4/2016)
-End at        : 09:10:36 (4/4/2016)
+End at        : 10:55:05 (4/20/2016)
 Elapsed time  : 00:02:29
 
 Signals       :   228   RoutingGrid: 10 mil  Layers: 2
@@ -22,4 +22,4 @@ Routed            :       144       453       453       453       453       453
 Vias              :         0       484       206       156       139       134
 Resolution        :    46.1 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
-Final             : 100.0% finished
+Final             : interrupted
