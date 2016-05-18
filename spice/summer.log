@@ -2,21 +2,21 @@ Circuit: * C:\Users\jcasa\Documents\projects\ArdaraClone\spice\summer.asc
 
 Direct Newton iteration for .op point succeeded.
 
-Date: Wed Apr 20 14:37:49 2016
-Total elapsed time: 0.101 seconds.
+Date: Wed Apr 27 15:07:20 2016
+Total elapsed time: 8.083 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 2106
-traniter = 2082
-tranpoints = 1042
-accept = 1042
-rejected = 0
-matrix size = 17
+totiter = 1278864
+traniter = 1278847
+tranpoints = 489543
+accept = 333491
+rejected = 156052
+matrix size = 14
 fillins = 5
 solver = Normal
-Matrix Compiler1: 944 bytes object code size  0.3/0.1/[0.1]
-Matrix Compiler2: off  [0.1]/0.2/0.2
+Matrix Compiler1: 788 bytes object code size  0.2/0.1/[0.0]
+Matrix Compiler2:      98 opcodes  0.1/[0.1]/0.2
 
 
